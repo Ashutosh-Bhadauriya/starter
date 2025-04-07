@@ -21,60 +21,60 @@
             ]
           },
           {
-            "group": "Quickstart",
+            "group": "Quickstarts",
             "pages": [
               {
                 "group": "Auth0",
                 "pages": [
-                  "quickstart/auth0/mfa",
-                  "quickstart/auth0/adaptive-mfa",
-                  "quickstart/auth0/passkeys"
+                  "quickstarts/auth0/mfa",
+                  "quickstarts/auth0/adaptive-mfa",
+                  "quickstarts/auth0/passkeys"
                 ]
               },
 
               {
                 "group": "AWS Cognito",
                 "pages": [
-                  "quickstart/aws-cognito/mfa",
-                  "quickstart/aws-cognito/adaptive-mfa",
-                  "quickstart/aws-cognito/passkeys"
+                  "quickstarts/aws-cognito/mfa",
+                  "quickstarts/aws-cognito/adaptive-mfa",
+                  "quickstarts/aws-cognito/passkeys"
                 ]
               },
               {
                 "group": "Azure AD B2C",
                 "pages": [
-                  "quickstart/azure-ad-b2c/mfa",
-                  "quickstart/azure-ad-b2c/adaptive-mfa",
-                  "quickstart/azure-ad-b2c/passkeys"
+                  "quickstarts/azure-ad-b2c/mfa",
+                  "quickstarts/azure-ad-b2c/adaptive-mfa",
+                  "quickstarts/azure-ad-b2c/passkeys"
                 ]
               },
               {
                 "group": "Keycloak",
                 "pages": [
-                  "quickstart/keycloak/mfa",
-                  "quickstart/keycloak/adaptive-mfa",
-                  "quickstart/keycloak/passkeys"
+                  "quickstarts/keycloak/mfa",
+                  "quickstarts/keycloak/adaptive-mfa",
+                  "quickstarts/keycloak/passkeys"
                 ]
               },
               {
                 "group": "Duende IdentityServer",
                 "pages": [
-                  "quickstart/duende-identityserver/mfa",
-                  "quickstart/duende-identityserver/adaptive-mfa",
-                  "quickstart/duende-identityserver/passkeys"
+                  "quickstarts/duende-identityserver/mfa",
+                  "quickstarts/duende-identityserver/adaptive-mfa",
+                  "quickstarts/duende-identityserver/passkeys"
                 ]
               },
               {
                 "group": "NextAuth",
                 "pages": [
-                  "quickstart/nextauth/mfa",
-                  "quickstart/nextauth/adaptive-mfa",
-                  "quickstart/nextauth/passkeys"
+                  "quickstarts/nextauth/mfa",
+                  "quickstarts/nextauth/adaptive-mfa",
+                  "quickstarts/nextauth/passkeys"
                 ]
               },
-              "quickstart/supabase",
-              "quickstart/ruby-on-rails",
-              "quickstart/oidc"
+              "quickstarts/supabase",
+              "quickstarts/ruby-on-rails",
+              "quickstarts/oidc"
             ]
           },
           {
