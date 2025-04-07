@@ -1,35 +1,153 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#8b7bff",
+    "light": "#8b7bff",
+    "dark": "#8b7bff"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "getting-started/overview",
+              "getting-started/setup-authsignal"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Quickstart",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              {
+                "group": "Auth0",
+                "pages": [
+                  "quickstart/auth0/mfa",
+                  "quickstart/auth0/adaptive-mfa",
+                  "quickstart/auth0/passkeys"
+                ]
+              },
+
+              {
+                "group": "AWS Cognito",
+                "pages": [
+                  "quickstart/aws-cognito/mfa",
+                  "quickstart/aws-cognito/adaptive-mfa",
+                  "quickstart/aws-cognito/passkeys"
+                ]
+              },
+              {
+                "group": "Azure AD B2C",
+                "pages": [
+                  "quickstart/azure-ad-b2c/mfa",
+                  "quickstart/azure-ad-b2c/adaptive-mfa",
+                  "quickstart/azure-ad-b2c/passkeys"
+                ]
+              },
+              {
+                "group": "Keycloak",
+                "pages": [
+                  "quickstart/keycloak/mfa",
+                  "quickstart/keycloak/adaptive-mfa",
+                  "quickstart/keycloak/passkeys"
+                ]
+              },
+              {
+                "group": "Duende IdentityServer",
+                "pages": [
+                  "quickstart/duende-identityserver/mfa",
+                  "quickstart/duende-identityserver/adaptive-mfa",
+                  "quickstart/duende-identityserver/passkeys"
+                ]
+              },
+              {
+                "group": "NextAuth",
+                "pages": [
+                  "quickstart/nextauth/mfa",
+                  "quickstart/nextauth/adaptive-mfa",
+                  "quickstart/nextauth/passkeys"
+                ]
+              },
+              "quickstart/supabase",
+              "quickstart/ruby-on-rails",
+              "quickstart/oidc"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              {
+                "group": "Prebuilt UI",
+                "pages": [
+                  "guides/prebuilt-ui/launch-prebuilt-ui",
+                  "guides/prebuilt-ui/ui-customization",
+                  "guides/prebuilt-ui/contextual-messaging",
+                  "guides/prebuilt-ui/passkey-uplift",
+                  "guides/prebuilt-ui/custom-domain"
+                ]
+              },
+              "guides/custom-ui",
+              "guides/mfa",
+              "guides/adaptive-mfa",
+              "guides/passwordless-login",
+              {
+                "group": "Passkeys",
+                "pages": [
+                  "guides/passkeys/overview",
+                  "guides/passkeys/local-dev",
+                  "guides/passkeys/web-best-practice",
+                  "guides/passkeys/mobile-best-practice"
+                ]
+              },
+              {
+                "group": "Authenticators",
+                "pages": [
+                  "guides/authenticators/overview",
+                  "guides/authenticators/enrolling-authenticators",
+                  "guides/authenticators/programmatic-management",
+                  "guides/authenticators/authenticator-binding",
+                  "guides/authenticators/restricting-authenticators"
+                ]
+              },
+              {
+                "group": "Rules",
+                "pages": [
+                  "guides/rules/overview",
+                  "guides/rules/risk-based-authentication",
+                  "guides/rules/business-specific-data",
+                  "guides/rules/custom-rules",
+                  "guides/rules/testing-rules"
+                ]
+              },
+              {
+                "group": "Webhooks",
+                "pages": [
+                  "guides/webhooks/overview",
+                  "guides/webhooks/events-schema"
+                ]
+              },
+              "guides/using-terraform"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "resources/FAQs"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "SDKs",
+        "groups": [
+          {
+            "group": "SDKs",
+            "pages": [
+              "sdks/overview"
             ]
           }
         ]
@@ -54,42 +172,17 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Authsignal Portal",
+      "href": "https://portal.authsignal.com"
     }
   },
   "footer": {
